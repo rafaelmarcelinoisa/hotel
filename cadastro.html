@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Usuário</title>
+</head>
+<body>
+    <h1><center>Cadastro de Usuário</center></h1>
+    <form action="cadastrar.php" method="post" align="center">
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" name="cpf" required><br><br>
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco"><br><br>
+
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" name="cep"><br><br>
+        <label for="cep">Bairro:</label>
+        <input type="text" id="bairro" name="bairro"><br><br>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade"><br><br>
+
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado" name="estado" maxlength="2"><br><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required><br><br>
+
+        <input type="submit" value="Cadastrar">
+         <input type="reset" value="Cancelar">
+    </form>
+</body>
+</html>
